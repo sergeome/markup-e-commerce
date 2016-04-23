@@ -26,6 +26,9 @@ a:hover {}
 
 /*WEB-SITE COMPONENTS*/
 
+/*Common Components*/
+.button {}
+
 /*Wrapper*/
 .wrapper {}
 
@@ -36,7 +39,32 @@ header{}
 .topnav {}
 
 /*Page Body*/
-.page-body {}
+.middle {}
+
+/*Main slider*/
+ul.main-slider {}
+ul.main-slider li {}
+.main-title {}
+.main-desciprtion {}
+
+/*Branded*/
+ul.branded {}
+ul.branded li {}
+.branded-descirption {}
+
+/*Featured Section*/
+.featured-title {}
+.featured-items {}
+.featured-item {}
+.item-description {}
+.item-price {}
 
 /*Footer*/
 footer {}
+.links-block {}
+.footer-column {}
+.column-title {}
+ul.column {}
+ul.column li {}
+
+.copyright {}
