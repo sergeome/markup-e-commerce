@@ -108,7 +108,7 @@ input[type=search] {
 .topnav ul {
     max-width: 1280px;
     margin: 0 auto;
-    padding: 7px 143px 9px 149px;
+    padding: 7px 0 9px 149px;
     box-sizing: border-box;
     overflow: hidden;
 }
