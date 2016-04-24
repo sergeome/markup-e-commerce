@@ -3,156 +3,164 @@
 <head>
     <title>Web-site title</title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <!--<link rel="icon" type="image/png" href="images/favicon.ico">-->
 
     <!-- jQuery library (served from Google) -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script src="js/jquery-1.12.3.min.js"></script>
     <!-- bxSlider Javascript file -->
-    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="js/jquery.bxslider.min.js"></script>
     <!-- bxSlider CSS file -->
-    <link href="css/jquery.bxslider.css" rel="stylesheet" />
+    <link href="css/jquery.bxslider.css" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="js/main.js">
 </head>
 <body>
-<div class="wrapper">
-    <header>
-        <section class="thead">
-            <img class="logo" src="#">
-            <input type="search" title="Web-Site search">
-            <a class="cart" href="#">$300</a>
-        </section>
-        <nav class="topnav">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Sale</a></li>
-                <li><a href="#">Handbags</a></li>
-                <li><a href="#">Wallets</a></li>
-                <li><a href="#">Accessories</a></li>
-                <li><a href="#">Mens Store</a></li>
-                <li><a href="#">Shoes</a></li>
-                <li><a href="#">Vintage</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact us</a></li>
-            </ul>
-        </nav>
-    </header><!--header-->
-    <section class="middle">
-        <ul class="main-slider">
-            <li>
+<header>
+    <section class="thead">
+        <img class="logo" src="images/logo.png">
+        <div class="search-container">
+            <input type="search" title="Web-Site search" class="search">
+        </div>
+        <a class="cart" href="#">$300</a>
+    </section>
+    <nav class="topnav">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Sale</a></li>
+            <li><a href="#">Handbags</a></li>
+            <li><a href="#">Wallets</a></li>
+            <li><a href="#">Accessories</a></li>
+            <li><a href="#">Mens Store</a></li>
+            <li><a href="#">Shoes</a></li>
+            <li><a href="#">Vintage</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact us</a></li>
+        </ul>
+    </nav>
+</header><!--header-->
+<section class="middle">
+    <div class="slider-wrapper">
+    <ul class="main-slider">
+        <li>
+            <img src="images/main-slider/Levis.png">
+            <div class="main-title">Cowhide<br>Standard Crew</div>
+            <div class="main-desciprtion">White coloured, short-sleeved, printed T-shirt for<br>men by Levi's. This crew-neck T-shirt is made of or-<br>ganic cotton and comes in a regular fit. </div>
+            <a class="main-button" href="#">Shop now</a>
+        </li>
+        <li>
+            <img src="images/main-slider/Levis.png">
+            <div class="main-title">Cowhide<br>Standard Crew</div>
+            <div class="main-desciprtion">White coloured, short-sleeved, printed T-shirt for<br>men by Levi's. This crew-neck T-shirt is made of or-<br>ganic cotton and comes in a regular fit. </div>
+            <a class="main-button" href="#">Shop now</a>
+        </li>
+    </ul><!--.main-slider-->
+    </div>
+    <ul class="branded">
+        <li>
+            <img src="#">
+            <span class="branded-descirption">Branded shoes</span>
+            <a class="button" href="#">Shop</a>
+        </li>
+        <li>
+            <img src="#">
+            <span class="branded-descirption">Branded Tshirts</span>
+            <a class="button" href="#">Shop</a>
+        </li>
+        <li>
+            <img src="#">
+            <span class="branded-descirption">Branded shoes</span>
+            <a class="button" href="#">Shop</a>
+        </li>
+    </ul><!--.branded-->
+    <section class="featured">
+        <section class="featured-title">Featured Products</section>
+        <section class="featured-items">
+            <div class="featured-item">
                 <img src="#">
-                <span class="main-title">Cowhide  Standard Crew</span>
-                <span class="main-desciprtion">White coloured, short-sleeved, printed T-shirt for men by Levi's. This crew-neck T-shirt is made of organic cotton and comes in a regular fit. </span>
-                <a class="main-button" href="#">Shop now</a>
-            </li>
-        </ul><!--.main-slider-->
-        <ul class="branded">
-            <li>
+                <span class="item-description">Branded Shoe</span>
+                <span class="item-price">$300</span>
+                <a class="button" href="#">Buy Now</a>
+            </div>
+            <div class="featured-item">
                 <img src="#">
-                <span class="branded-descirption">Branded shoes</span>
-                <a class="button" href="#">Shop</a>
-            </li>
-            <li>
+                <span class="item-description">Branded Tees</span>
+                <span class="item-price">$300</span>
+                <a class="button" href="#">Buy Now</a>
+            </div>
+            <div class="featured-item">
                 <img src="#">
-                <span class="branded-descirption">Branded Tshirts</span>
-                <a class="button" href="#">Shop</a>
-            </li>
-            <li>
+                <span class="item-description">Branded Shoe</span>
+                <span class="item-price">$300</span>
+                <a class="button" href="#">Buy Now</a>
+            </div>
+            <div class="featured-item">
                 <img src="#">
-                <span class="branded-descirption">Branded shoes</span>
-                <a class="button" href="#">Shop</a>
-            </li>
-        </ul><!--.branded-->
-        <section class="featured">
-            <section class="featured-title">Featured Products</section>
-            <section class="featured-items">
-                <div class="featured-item">
-                    <img src="#">
-                    <span class="item-description">Branded Shoe</span>
-                    <span class="item-price">$300</span>
-                    <a class="button" href="#">Buy Now</a>
-                </div>
-                <div class="featured-item">
-                    <img src="#">
-                    <span class="item-description">Branded Tees</span>
-                    <span class="item-price">$300</span>
-                    <a class="button" href="#">Buy Now</a>
-                </div>
-                <div class="featured-item">
-                    <img src="#">
-                    <span class="item-description">Branded Shoe</span>
-                    <span class="item-price">$300</span>
-                    <a class="button" href="#">Buy Now</a>
-                </div>
-                <div class="featured-item">
-                    <img src="#">
-                    <span class="item-description">Branded Shoe</span>
-                    <span class="item-price">$300</span>
-                    <a class="button" href="#">Buy Now</a>
-                </div>
-                <div class="featured-item">
-                    <img src="#">
-                    <span class="item-description">EMS Woman Bag</span>
-                    <span class="item-price">$300</span>
-                    <a class="button" href="#">Buy Now</a>
-                </div>
-                <div class="featured-item">
-                    <img src="#">
-                    <span class="item-description">Branded Cargos</span>
-                    <span class="item-price">$300</span>
-                    <a class="button" href="#">Buy Now</a>
-                </div>
-            </section><!--.featured-items-->
-        </section><!--.featured-->
-    </section><!--.middle-->
-    <footer>
-        <section class="links-block">
-            <ul class="column">
-                <li><a>fEATURED sALE</a></li>
-                <li><a>Alexis Hudson</a></li>
-                <li><a>American Apparel</a></li>
-                <li><a>Ben Sherman</a></li>
-                <li><a>Big Buddha</a></li>
-                <li><a>Chanel</a></li>
-                <li><a>Christian Audigier</a></li>
-                <li><a>Coach</a></li>
-                <li><a>Cole Haan</a></li>
-            </ul>
-            <ul class="column">
-                <li><a>Mens Store</a></li>
-                <li><a>Alexis Hudson</a></li>
-                <li><a>American Apparel</a></li>
-                <li><a>Ben Sherman</a></li>
-                <li><a>Big Buddha</a></li>
-                <li><a>Chanel</a></li>
-                <li><a>Christian Audigier</a></li>
-                <li><a>Coach</a></li>
-                <li><a>Cole Haan</a></li>
-            </ul>
-            <ul class="column">
-                <li><a>Women Store</a></li>
-                <li><a>Alexis Hudson</a></li>
-                <li><a>American Apparel</a></li>
-                <li><a>Ben Sherman</a></li>
-                <li><a>Big Buddha</a></li>
-                <li><a>Chanel</a></li>
-                <li><a>Christian Audigier</a></li>
-                <li><a>Coach</a></li>
-                <li><a>Cole Haan</a></li>
-            </ul>
-            <ul class="column">
-                <li><a>Quick Links</a></li>
-                <li><a>Alexis Hudson</a></li>
-                <li><a>American Apparel</a></li>
-                <li><a>Ben Sherman</a></li>
-                <li><a>Big Buddha</a></li>
-                <li><a>Chanel</a></li>
-                <li><a>Christian Audigier</a></li>
-                <li><a>Coach</a></li>
-                <li><a>Cole Haan</a></li>
-            </ul>
-        </section><!--.links-block-->
-        <section class="copyright">Copyright © 2013 Css Author</section>
-    </footer><!--.footer-->
-</div><!--.wrapper-->
+                <span class="item-description">Branded Shoe</span>
+                <span class="item-price">$300</span>
+                <a class="button" href="#">Buy Now</a>
+            </div>
+            <div class="featured-item">
+                <img src="#">
+                <span class="item-description">EMS Woman Bag</span>
+                <span class="item-price">$300</span>
+                <a class="button" href="#">Buy Now</a>
+            </div>
+            <div class="featured-item">
+                <img src="#">
+                <span class="item-description">Branded Cargos</span>
+                <span class="item-price">$300</span>
+                <a class="button" href="#">Buy Now</a>
+            </div>
+        </section><!--.featured-items-->
+    </section><!--.featured-->
+</section><!--.middle-->
+<footer>
+    <section class="links-block">
+        <ul class="column">
+            <li><a>fEATURED sALE</a></li>
+            <li><a>Alexis Hudson</a></li>
+            <li><a>American Apparel</a></li>
+            <li><a>Ben Sherman</a></li>
+            <li><a>Big Buddha</a></li>
+            <li><a>Chanel</a></li>
+            <li><a>Christian Audigier</a></li>
+            <li><a>Coach</a></li>
+            <li><a>Cole Haan</a></li>
+        </ul>
+        <ul class="column">
+            <li><a>Mens Store</a></li>
+            <li><a>Alexis Hudson</a></li>
+            <li><a>American Apparel</a></li>
+            <li><a>Ben Sherman</a></li>
+            <li><a>Big Buddha</a></li>
+            <li><a>Chanel</a></li>
+            <li><a>Christian Audigier</a></li>
+            <li><a>Coach</a></li>
+            <li><a>Cole Haan</a></li>
+        </ul>
+        <ul class="column">
+            <li><a>Women Store</a></li>
+            <li><a>Alexis Hudson</a></li>
+            <li><a>American Apparel</a></li>
+            <li><a>Ben Sherman</a></li>
+            <li><a>Big Buddha</a></li>
+            <li><a>Chanel</a></li>
+            <li><a>Christian Audigier</a></li>
+            <li><a>Coach</a></li>
+            <li><a>Cole Haan</a></li>
+        </ul>
+        <ul class="column">
+            <li><a>Quick Links</a></li>
+            <li><a>Alexis Hudson</a></li>
+            <li><a>American Apparel</a></li>
+            <li><a>Ben Sherman</a></li>
+            <li><a>Big Buddha</a></li>
+            <li><a>Chanel</a></li>
+            <li><a>Christian Audigier</a></li>
+            <li><a>Coach</a></li>
+            <li><a>Cole Haan</a></li>
+        </ul>
+    </section><!--.links-block-->
+    <section class="copyright">Copyright © 2013 Css Author</section>
+</footer><!--.footer-->
 </body>
 </html>
