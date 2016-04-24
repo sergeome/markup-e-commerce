@@ -135,7 +135,7 @@ input[type=search] {
     width: 100%;
     overflow: hidden;
 }
-ul.main-slider {
+.main-slider-container {
     padding: 65px 0 60px 205px;
     max-width: 1280px;
     margin: 0 auto;
