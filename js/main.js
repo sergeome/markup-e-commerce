@@ -5,9 +5,9 @@ $(document).ready(function(){
         maxSlides: 1,
         slideWidth: 1075,
         slideMargin: 0,
-        auto: true,
+        auto: false,
         pager: true,
-        pause: 2000,
+        pause: 1500,
         controls: false
     });
 });

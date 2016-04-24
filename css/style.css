@@ -142,8 +142,17 @@ input[type=search] {
     box-sizing: border-box;
     overflow: hidden;
 }
+ul.main-slider {
+    float: left;
+    width: 100%;
+}
+.main-slider-description {
+    display: inline-block;
+    margin: 0 0 0 0;
+}
 ul.main-slider li {
-    overflow: hidden;
+    float: left;
+    width: 100%;
 }
 ul.main-slider li img{
     float: left;
