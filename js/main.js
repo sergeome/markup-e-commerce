@@ -6,7 +6,8 @@ $(document).ready(function(){
         slideWidth: 1075,
         slideMargin: 0,
         auto: true,
-        pager: false,
-        pause: 2000
+        pager: true,
+        pause: 2000,
+        controls: false
     });
 });
