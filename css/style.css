@@ -329,6 +329,9 @@ ul.column li:first-child {
     text-align: center;
     padding: 12px 0;
 }
+.copyright a {
+    text-decoration: underline;
+}
 
 
 /*Slider overwriting*/
