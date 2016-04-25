@@ -12,7 +12,7 @@ $(document).ready(function(){
         // mode: 'fade',
         controls: false
     });
-
+    
     $('.ins-branded').bxSlider({
         minSlides: 3,
         moveSlides: 3,
@@ -25,5 +25,4 @@ $(document).ready(function(){
         adaptiveHeight: true,
         controls: true
     });
-
 });
