@@ -17,10 +17,10 @@ $(document).ready(function(){
         minSlides: 3,
         moveSlides: 3,
         maxSlides: 3,
-        slideWidth: 1075,
+        slideWidth: 362,
         slideMargin: 0,
         auto: false,
-        pager: true,
+        pager: false,
         pause: 1500,
         controls: true
     });
