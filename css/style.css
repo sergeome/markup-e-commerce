@@ -243,7 +243,7 @@ ul.ins-branded li img {
     margin: 0 auto;
     font-size: 31px;
     text-transform: uppercase;
-    padding: 23px 0 23px 185px;
+    padding: 19px 0 16px 185px;
     max-width: 1280px;
     box-sizing: border-box;
 }
@@ -263,7 +263,7 @@ ul.ins-branded li img {
     color: #afafaf;
     border: 1px solid #e4e4e4;
     display: inline-block;
-    margin: 45px 51px 0 0;
+    margin: 48px 53px 0 0;
     width: 255px;
     min-height: 261px;
     float: left;
@@ -297,7 +297,7 @@ footer {
 .footer-wrapper {
     margin: 73px auto 0;
     max-width: 1280px;
-    padding: 42px 0 41px 186px;
+    padding: 32px 0 31px 186px;
     box-sizing: border-box;
 }
 .links-block {
@@ -319,6 +319,7 @@ ul.column li:last-child {
 ul.column li:first-child {
     text-transform: uppercase;
     font: normal 27px/40px "Bebas Neue", sans-serif;
+    margin: 0 0 7px 0;
 }
 
 .copyright {
@@ -326,7 +327,7 @@ ul.column li:first-child {
     width: 100%;
     background: #2da89b;
     text-align: center;
-    padding: 14px 0;
+    padding: 12px 0;
 }
 
 
