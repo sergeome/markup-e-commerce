@@ -182,7 +182,6 @@ ul.main-slider li img{
 
 /*Branded*/
 .branded {
-    clear: both;
     width: 100%;
     float: left;
     font-size: 27px;
@@ -304,4 +303,7 @@ ul.column li {}
 .bx-wrapper .bx-next:hover, .bx-wrapper .bx-prev:hover {
     opacity: 1;
     background-position: 0 0;
+}
+.branded .bx-viewport {
+    height: auto !important;
 }

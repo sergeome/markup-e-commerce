@@ -22,6 +22,7 @@ $(document).ready(function(){
         auto: false,
         pager: false,
         pause: 1500,
+        adaptiveHeight: true,
         controls: true
     });
 
