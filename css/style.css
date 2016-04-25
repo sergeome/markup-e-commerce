@@ -68,6 +68,13 @@ input[type=search] {
     width: 436px;
     height: 33px;
     border: 1px solid #e1e1e1;
+    transition: box-shadow 0.3s;
+}
+input[type=search]:focus {
+    border: none;
+    outline: none;
+    box-shadow: 0 0 0 2px #3cc3b5;
+    animation: anim-shadow 0.3s forwards;
 }
 .search-container {
     display: inline-block;
