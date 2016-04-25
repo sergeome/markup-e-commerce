@@ -10,7 +10,7 @@
     -ms-transform: translatez(0);
     -o-transform: translatez(0);
     transform: translatez(0);
-    overflow: hidden;
+    height: auto !important;
 }
 
 /* LOADER */

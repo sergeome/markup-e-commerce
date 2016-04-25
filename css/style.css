@@ -41,7 +41,11 @@ a:hover {
 /*WEB-SITE COMPONENTS*/
 
 /*Common Components*/
-.button {}
+.button {
+    background: #3cc395;
+    padding: 7px 16px;
+    border-radius: 5px;
+}
 
 /*Header*/
 header {
@@ -67,7 +71,7 @@ input[type=search] {
 .search-container {
     display: inline-block;
     position: relative;
-    margin: 5px 0 0 0;
+    margin: 5px 154px 0 0;
 }
 .search-container:after {
     content: " ";
@@ -148,7 +152,6 @@ ul.main-slider {
 }
 .main-slider-description {
     display: inline-block;
-    margin: 0 0 0 0;
 }
 ul.main-slider li {
     float: left;
@@ -157,6 +160,7 @@ ul.main-slider li {
 ul.main-slider li img{
     float: left;
     margin: 0 100px 0 0;
+    height: inherit;
 }
 .main-title {
     font-size: 61px;
@@ -168,6 +172,7 @@ ul.main-slider li img{
     margin: 0 0 36px 0;
 }
 .main-button {
+    display: inline-block;
     font-size: 27px;
     border: 3px solid #fff;
     padding: 6px 25px;
@@ -175,14 +180,64 @@ ul.main-slider li img{
 }
 
 /*Branded*/
-ul.branded {
+.branded {
     clear: both;
+    width: 100%;
+    float: left;
+    font-size: 27px;
+    line-height: 26px;
 }
-ul.branded li {}
-.branded-descirption {}
+.branded-container {
+    padding: 0 0 0 152px;
+    max-width: 1280px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 100%;
+    overflow: hidden;
+}
+ul.ins-branded {
+    /*margin: 0 auto;*/
+    overflow: hidden;
+}
+ul.ins-branded li {
+    display: inline-block;
+    float: left;
+    position: relative;
+}
+ul.ins-branded li:after {
+    content: " ";
+    display: inline-block;
+    background: url("../images/branded-devider.png") no-repeat top center;
+    width: 1px;
+    height: 190px;
+    margin: 0 0 0 67px;
+}
+ul.ins-branded li:last-child:after {
+    display: none;
+}
+ul.ins-branded li img {
+    margin: 22px 0 19px 0;
+    float: left;
+    height: inherit;
+}
+.branded-info {
+    float: left;
+    margin: 28px 0 0 0;
+}
+.branded-descirption {
+    margin: 22px 0 20px 0;
+    color: #a1a1a1;
+}
+.branded .button {
+    font-size: 19px;
+}
 
 /*Featured Section*/
-.featured-title {}
+.featured-title {
+    clear: both;
+    height: 100px;
+    background: green;
+}
 .featured-items {}
 .featured-item {}
 .item-description {}
