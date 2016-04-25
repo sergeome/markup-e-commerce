@@ -33,7 +33,7 @@ a {
     text-decoration: none;
     color: inherit;
 }
-a:hover {
+a:hover, a .logo:hover {
     opacity: 0.8;
 }
 
