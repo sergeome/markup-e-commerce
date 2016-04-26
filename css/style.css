@@ -187,7 +187,8 @@ ul.main-slider {
     width: 100%;
 }
 .main-slider-description {
-    display: inline-block;
+    /*display: inline-block;*/
+    /*float: left;*/
 }
 ul.main-slider li {
     float: left;
@@ -196,7 +197,6 @@ ul.main-slider li {
 ul.main-slider li img{
     float: left;
     margin: 0 100px 0 0;
-    height: inherit;
 }
 .main-title {
     font-size: 61px;
