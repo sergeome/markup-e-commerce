@@ -187,8 +187,7 @@ ul.main-slider {
     width: 100%;
 }
 .main-slider-description {
-    /*display: inline-block;*/
-    /*float: left;*/
+    float: left;
 }
 ul.main-slider li {
     float: left;
@@ -202,10 +201,12 @@ ul.main-slider li img{
     font-size: 61px;
     line-height: 55px;
     margin: 10px 0 24px 0;
+    max-width: 500px;
 }
 .main-desciprtion {
     font: normal 17px/29px "Open Sans", sans-serif;
     margin: 0 0 36px 0;
+    max-width: 500px;
 }
 .main-button {
     display: inline-block;

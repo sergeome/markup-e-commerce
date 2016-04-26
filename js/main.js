@@ -8,7 +8,7 @@ $(document).ready(function(){
         auto: false,
         pager: true,
         pause: 3500,
-        // adaptiveHeight: true,
+        adaptiveHeight: true,
         // mode: 'fade',
         controls: false
     });
