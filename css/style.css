@@ -107,7 +107,7 @@ input[type="search"]::-webkit-search-results-decoration {
 .search-container {
     display: inline-block;
     position: relative;
-    margin: 5px 154px 0 0;
+    margin: 5px 0 0 0;
 }
 .search-icon {
     content: " ";
