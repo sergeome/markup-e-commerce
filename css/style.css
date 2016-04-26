@@ -242,10 +242,10 @@ ul.ins-branded li {
 }
 ul.ins-branded li:after {
     content: " ";
-    display: inline-block;
-    background: url("../images/branded-devider.png") repeat-y right;
+    position: absolute;
+    background: url("../images/devider.png") repeat-y right;
     width: 1px;
-    height: 190px;
+    height: 100%;
     margin: 0 0 0 67px;
 }
 ul.ins-branded li:nth-child(3n):after {
@@ -264,9 +264,11 @@ ul.ins-branded li img {
 .branded-descirption {
     margin: 22px 0 20px 0;
     color: #a1a1a1;
+    max-width: 85px;
 }
 .branded .button {
     font-size: 19px;
+    margin: 0 0 30px 0;
 }
 
 /*Featured Section*/
