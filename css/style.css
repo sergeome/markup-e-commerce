@@ -303,28 +303,37 @@ ul.ins-branded li img {
     border: 1px solid #e4e4e4;
     display: inline-block;
     margin: 48px 53px 0 0;
+    float: left;
     width: 255px;
     min-height: 261px;
-    float: left;
     border-bottom: 5px solid #3cc395;
     box-shadow: 0 0 1px 0 #9C9C9C;
+    padding: 0 17px;
+    box-sizing: border-box;
+}
+.featured-item:nth-child(4n) {
+    clear: left;
 }
 .featured-item img {
     display: block;
     margin: 21px auto;
+    height: 126px;
 }
 .item-description {
     text-align: center;
 }
 .item-price {
     display: inline-block;
-    margin: 0 0 0 67px;
+    margin: 13px 0 0 0;
+    float: right;
 }
 .featured .button {
+    display: inline-block;
     color: #fff;
     font-size: 21px;
     padding: 6px 10px;
-    margin: 10px 0 14px 11px;
+    margin: 10px 37px 14px 11px;
+    float: right;
 }
 
 /*Footer*/
