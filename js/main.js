@@ -5,9 +5,9 @@ $(document).ready(function(){
         maxSlides: 1,
         slideWidth: 1075,
         slideMargin: 0,
-        auto: false,
+        auto: true,
         pager: true,
-        pause: 1500,
+        pause: 3500,
         // adaptiveHeight: true,
         // mode: 'fade',
         controls: false
@@ -19,9 +19,9 @@ $(document).ready(function(){
         maxSlides: 3,
         slideWidth: 362,
         slideMargin: 0,
-        auto: false,
+        auto: true,
         pager: false,
-        pause: 1500,
+        pause: 4500,
         adaptiveHeight: true,
         controls: true
     });
