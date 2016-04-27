@@ -145,7 +145,7 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 .okayNav {
     margin: 0 auto !important;
-    width: 987px;
+    width: 1000px;
     color: #fff;
     font-size: 21px;
     overflow: hidden;
@@ -484,22 +484,24 @@ body.okayNav-loaded {
     position: fixed;
     top: 122px;
     bottom: 0;
-    overflow-y: scroll;
+    overflow: hidden;
     -webkit-overflow-scrolling: touch;
-    background: #fff;
+    background: rgba(0,0,0,0);
 }
 .okayNav__nav--invisible li {
-    /*display: block !important;*/
     clear: both !important;
-    height: 10px;
     z-index: 10;
+}
+.okayNav__nav--invisible li:after {
+    display: none;
 }
 .okayNav__nav--invisible a {
     background: red;
-    /*width: 240px;*/
+    width: 240px;
     display: block !important;
-    padding: 15px;
-    height: 500px;
+    padding: 20px 0;
+    /*height: 50px;*/
+    /*box-sizing: border-box;*/
 }
 .okayNav__nav--invisible.nav-left {
     left: 0;
