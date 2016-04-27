@@ -54,8 +54,8 @@ header {
 }
 .thead {
     margin: 0 auto;
-    max-width: 1280px;
-    padding: 21px 150px 18px;
+    max-width: 980px;
+    padding: 21px 0 18px;
     overflow: hidden;
     box-sizing: border-box;
 }
@@ -146,10 +146,9 @@ input[type="search"]::-webkit-search-results-decoration {
     box-shadow: 0 3px 20px -10px #000000;
 }
 .topnav ul {
-    max-width: 1280px;
+    max-width: 987px;
     margin: 0 auto;
-    padding: 7px 0 9px 149px;
-    box-sizing: border-box;
+    padding: 7px 0 9px 7px;
     overflow: hidden;
 }
 .topnav ul li {
@@ -176,10 +175,9 @@ input[type="search"]::-webkit-search-results-decoration {
     overflow: hidden;
 }
 .main-slider-container {
-    padding: 65px 0 0 205px;
-    max-width: 1280px;
+    padding: 65px 0 0 115px;
+    max-width: 980px;
     margin: 0 auto;
-    box-sizing: border-box;
     overflow: hidden;
 }
 ul.main-slider {
@@ -224,15 +222,11 @@ ul.main-slider li img{
     line-height: 26px;
 }
 .branded-container {
-    padding: 0 0 0 60px;
-    max-width: 1280px;
-    box-sizing: border-box;
+    max-width: 980px;
     margin: 0 auto;
     width: 100%;
-    overflow: hidden;
 }
 ul.ins-branded {
-    /*margin: 0 auto;*/
     overflow: hidden;
 }
 ul.ins-branded li {
@@ -246,7 +240,7 @@ ul.ins-branded li:after {
     background: url("../images/devider.png") repeat-y right;
     width: 1px;
     height: 100%;
-    margin: 0 0 0 67px;
+    margin: 0 0 0 27px;
 }
 ul.ins-branded li:nth-child(3n):after {
     display: none;
@@ -282,9 +276,8 @@ ul.ins-branded li img {
     margin: 0 auto;
     font-size: 31px;
     text-transform: uppercase;
-    padding: 19px 0 16px 185px;
-    max-width: 1280px;
-    box-sizing: border-box;
+    padding: 19px 0 16px 70px;
+    max-width: 980px;
 }
 .featured-items {
     width: 100%;
@@ -292,10 +285,9 @@ ul.ins-branded li img {
     font-size: 27px;
 }
 .featured-items-wrapper {
-    max-width: 1280px;
+    max-width: 980px;
     margin: 0 auto;
-    box-sizing: border-box;
-    padding: 0 0 0 189px;
+    padding: 0 0 0 79px;
     overflow: hidden;
 }
 .featured-item {
@@ -344,9 +336,8 @@ footer {
 }
 .footer-wrapper {
     margin: 73px auto 0;
-    max-width: 1280px;
-    padding: 32px 0 31px 186px;
-    box-sizing: border-box;
+    max-width: 980px;
+    padding: 32px 0 31px 72px;
 }
 .links-block {
 
@@ -384,14 +375,14 @@ ul.column li:first-child {
 
 /*Slider overwriting*/
 .bx-wrapper .bx-prev {
-    left: -95px;
+    left: -92px;
     background: url("../images/bxslider/left.png") no-repeat top center;
     width: 29px !important;
     height: 88px !important;
     margin-top: -44px !important;
 }
 .bx-wrapper .bx-next {
-    right: 2px;
+    right: -82px;
     background: url("../images/bxslider/right.png") no-repeat top center;
     width: 29px !important;
     height: 88px !important;
