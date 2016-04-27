@@ -8,7 +8,7 @@ $(document).ready(function(){
         auto: false,
         pager: true,
         pause: 3500,
-        adaptiveHeight: true,
+        // adaptiveHeight: true,
         // mode: 'fade',
         controls: false
     });
@@ -27,7 +27,7 @@ $(document).ready(function(){
     });
 
     var navigation = $('#nav-main').okayNav({
-        parent : 'nav.topnav ul', // will call nav's parent() by default
+        // parent : 'nav.topnav ul', // will call nav's parent() by default
         toggle_icon_class : 'okayNav__menu-toggle',
         toggle_icon_content: '<span /><span /><span />',
         align_right: true, // If false, the menu and the kebab icon will be on the left

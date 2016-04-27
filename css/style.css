@@ -149,8 +149,6 @@ input[type="search"]::-webkit-search-results-decoration {
     color: #fff;
     font-size: 21px;
     overflow: hidden;
-    position: relative;
-    z-index: 20;
 }
 .okayNav ul {
     margin: 0 auto;
@@ -178,14 +176,14 @@ input[type="search"]::-webkit-search-results-decoration {
     background: url("../images/background.png") repeat;
     width: 100%;
     overflow: hidden;
+    position: relative;
+    z-index: -1;
 }
 .main-slider-container {
     padding: 65px 0 0 115px;
     max-width: 980px;
     margin: 0 auto;
     overflow: hidden;
-    z-index: -10;
-    /*position: relative;*/
 }
 ul.main-slider {
     float: left;
@@ -381,6 +379,9 @@ ul.column li:first-child {
 
 
 /*Slider overwriting*/
+/*.bx-wrapper {*/
+    /*z-index: -1;*/
+/*}*/
 .bx-wrapper .bx-prev {
     left: -92px;
     background: url("../images/bxslider/left.png") no-repeat top center;
@@ -434,16 +435,16 @@ ul.column li:first-child {
 
 
 /* okayNav styles */
-body.okayNav-loaded {
-    overflow-x: hidden;
-}
-.okayNav:not(.loaded) {
-    visibility: hidden;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}
+/*body.okayNav-loaded {*/
+    /*overflow-x: hidden;*/
+/*}*/
+/*.okayNav:not(.loaded) {*/
+    /*visibility: hidden;*/
+    /*-webkit-user-select: none;*/
+    /*-moz-user-select: none;*/
+    /*-ms-user-select: none;*/
+    /*user-select: none;*/
+/*}*/
 .okayNav ul {
     /* We want two navigations - one hidden and one visible */
     float: left;
@@ -453,8 +454,8 @@ body.okayNav-loaded {
     /*color: #2e2e33;*/
     /*font-size: 1.4rem;*/
     /*font-weight: bold;*/
-    /*position: relative;*/
-    /*z-index: 1;*/
+    position: relative;
+    z-index: 1;
 }
 .okayNav__nav--visible {
     overflow: hidden;
@@ -469,39 +470,41 @@ body.okayNav-loaded {
     transition: color 200ms cubic-bezier(0.55, 0, 0.1, 1);
     /*padding: 15px 15px;*/
 }
-.okayNav__nav--visible a:hover {
+/*.okayNav__nav--visible a:hover {*/
     /*color: #546edb;*/
-}
-
-
-
-
+/*}*/
 
 
 
 /* Link styling for the off-screen part of the nav */
-.okayNav__nav--invisible {
-    position: fixed;
-    top: 122px;
-    bottom: 0;
-    overflow: hidden;
-    -webkit-overflow-scrolling: touch;
-    background: rgba(0,0,0,0);
-}
-.okayNav__nav--invisible li {
-    clear: both !important;
-    z-index: 10;
-}
+
 .okayNav__nav--invisible li:after {
     display: none;
 }
+.okayNav__nav--invisible {
+    position: fixed;
+    top: 122px;
+    /*bottom: 0;*/
+    /*overflow-y: scroll;*/
+    /*-webkit-overflow-scrolling: touch;*/
+    background: #fff;
+}
+.okayNav__nav--invisible li {
+    clear: left;
+}
 .okayNav__nav--invisible a {
-    background: red;
-    width: 240px;
-    display: block !important;
-    padding: 20px 0;
-    /*height: 50px;*/
-    /*box-sizing: border-box;*/
+    clear: both;
+    background: #4ccfc1;
+    width: 120px;
+    text-align: center;
+    display: block;
+    padding: 15px;
+}
+.okayNav__nav--invisible li:after {
+    content: " ";
+    background: #fff repeat-x;
+    height: 1px;
+    display: block;
 }
 .okayNav__nav--invisible.nav-left {
     left: 0;
@@ -509,13 +512,16 @@ body.okayNav-loaded {
     transform: translateX(-100%);
 }
 .okayNav__nav--invisible.nav-right {
-    right: 0;
     -webkit-transform: translateX(100%);
     transform: translateX(100%);
+    position: absolute;
+    top: 40px;
+    right: 0;
 }
 .okayNav__nav--invisible.transition-enabled {
     transition: -webkit-transform 400ms cubic-bezier(0.55, 0, 0.1, 1);
     transition: transform 400ms cubic-bezier(0.55, 0, 0.1, 1);
+    transition: transform 400ms cubic-bezier(0.55, 0, 0.1, 1), -webkit-transform 400ms cubic-bezier(0.55, 0, 0.1, 1);
 }
 .okayNav__nav--invisible.nav-open {
     -webkit-transform: translateX(0);
