@@ -431,7 +431,11 @@ ul.column li:first-child {
 
 @media screen and (max-width:755px) {
     .search-container {
-        display: none;
+        position: absolute;
+        top: 90px;
+        z-index: 20;
+        left: 20px;
+        width: 82%;
     }
 
     .nav-wrapper {
