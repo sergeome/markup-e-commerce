@@ -435,7 +435,7 @@ ul.column li:first-child {
         top: 90px;
         z-index: 20;
         left: 20px;
-        width: 82%;
+        width: 80%;
     }
 
     .nav-wrapper {
@@ -544,6 +544,13 @@ ul.column li:first-child {
         -o-transform: rotate(-45deg) translate(3px, -8px);
         transform: rotate(-45deg) translate(3px, -8px);
         background: #fff;
+    }
+
+}
+
+@media screen and (max-width:480px) {
+    .search-container {
+        width: 70%;
     }
 
 }
