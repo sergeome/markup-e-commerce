@@ -406,7 +406,7 @@ ul.column li:first-child {
 
 
 /*Responsive web-design*/
-@media screen and (max-width:1025px) {
+@media screen and (max-width:1040px) {
     .logo {
         margin: 0 13% 0 2%;
     }
@@ -426,6 +426,40 @@ ul.column li:first-child {
     }
     .okayNav__nav--visible:first-child {
         margin-left: 2%;
+    }
+
+
+    .main-slider-container {
+        padding: 35px 0 0 0;
+    }
+    .main-slider-description {
+        float: none;
+        text-align: center;
+    }
+    .main-title, .main-desciprtion {
+        max-width: 100%;
+    }
+    .main-title {
+        margin: 10px 0 0 0;
+        font-size: 50px;
+    }
+    .main-desciprtion {
+        margin: 15px 0;
+    }
+    .slider-wrapper {
+        /*background: red;*/
+    }
+
+    ul.main-slider li img {
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+    .bx-wrapper .bx-pager {
+        position: relative;
+        left: -3px;
+        top: 31px;
+        text-align: center;
     }
 }
 
