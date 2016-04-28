@@ -434,8 +434,12 @@ ul.column li:first-child {
         display: none;
     }
 
+    .nav-wrapper {
+        padding: 0;
+    }
+
     .okayNav {
-        height: 46px;
+        min-height: 62px;
     }
 
     .okayNav ul {
@@ -443,7 +447,30 @@ ul.column li:first-child {
     }
 
     .okayNav ul.responsive-menu {
+        float: none;
         display: block;
+        text-align: center;
+        margin: 62px 0 0 0 ;
+    }
+
+    .okayNav ul.responsive-menu li {
+        clear: both;
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+    .okayNav ul.responsive-menu li:after {
+        content: " ";
+        background: #fff repeat-x;
+        display: block;
+        height: 1px;
+        margin: 10px 0;
+    }
+    .okayNav ul.responsive-menu li:last-child:after{
+        display: none;
+    }
+    .okayNav ul.responsive-menu li:last-child {
+        margin: 0 0 10px 0;
     }
 
 
