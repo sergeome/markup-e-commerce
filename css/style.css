@@ -406,7 +406,11 @@ ul.column li:first-child {
 
 
 /*Responsive web-design*/
+
+/*For laptops and desktops with small defenition*/
 @media screen and (max-width:1040px) {
+
+    /*Top header responsive*/
     .logo {
         margin: 0 13% 0 2%;
     }
@@ -420,7 +424,7 @@ ul.column li:first-child {
         width: 100%;
     }
 
-
+    /*Navigation responsive*/
     .okayNav {
         width: auto;
     }
@@ -428,7 +432,7 @@ ul.column li:first-child {
         margin-left: 2%;
     }
 
-
+    /*Main slider responsive*/
     .main-slider-container {
         padding: 35px 0 0 0;
     }
@@ -446,10 +450,6 @@ ul.column li:first-child {
     .main-desciprtion {
         margin: 15px 0;
     }
-    .slider-wrapper {
-        /*background: red;*/
-    }
-
     ul.main-slider li img {
         float: none;
         display: block;
@@ -461,9 +461,42 @@ ul.column li:first-child {
         top: 31px;
         text-align: center;
     }
+
+    /*Featured responsive*/
+    .featured-title {
+        text-align: center;
+    }
+    .featured-title-wrapper {
+        padding-left: 0;
+    }
+    .featured-items-wrapper {
+        width: 563px;
+        margin: 0 auto;
+        padding: 0;
+
+    }
+    .featured-item:nth-child(2n+1) {
+        clear: left;
+    }
+    .featured-item:nth-child(2n+2) {
+        clear: none;
+        margin-right: 0;
+    }
+
+    /*Footer responsive*/
+    .column:nth-child(2n+1):after {
+
+    }
+    .copyright {
+        clear: both;
+    }
 }
 
+
+/*Mobile web deign*/
 @media screen and (max-width:755px) {
+
+    /*Search mobile*/
     .search-container {
         position: absolute;
         top: 90px;
@@ -472,25 +505,22 @@ ul.column li:first-child {
         width: 80%;
     }
 
+    /*Navigation mobile*/
     .nav-wrapper {
         padding: 0;
     }
-
     .okayNav {
         min-height: 62px;
     }
-
     .okayNav ul {
         display: none;
     }
-
     .okayNav ul.responsive-menu {
         float: none;
         display: block;
         text-align: center;
         margin: 62px 0 0 0 ;
     }
-
     .okayNav ul.responsive-menu li {
         clear: both;
         display: block;
@@ -511,8 +541,7 @@ ul.column li:first-child {
         margin: 0 0 10px 0;
     }
 
-
-    /*Mobile Navigation*/
+    /*Mobile hambugrer icon*/
     #show-nav{
         position: absolute;
         top: 13px;
@@ -582,6 +611,8 @@ ul.column li:first-child {
 
 }
 
+
+/*Fixes in small resolitions*/
 @media screen and (max-width:480px) {
     .search-container {
         width: 70%;
@@ -607,14 +638,14 @@ ul.column li:first-child {
     /* We want two navigations - one hidden and one visible */
     float: left;
 }
-.okayNav a {
+/*.okayNav a {*/
     /* Links general styling */
     /*color: #2e2e33;*/
     /*font-size: 1.4rem;*/
     /*font-weight: bold;*/
     /*position: relative;*/
     /*z-index: 1;*/
-}
+/*}*/
 .okayNav__nav--visible {
     overflow: hidden;
 }
