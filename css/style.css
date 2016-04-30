@@ -484,11 +484,11 @@ ul.column li:first-child {
         /*width: 240px !important;*/
     }
     ul.ins-branded li {
-        display: block !important;
-        text-align: center;
+        /*display: block !important;*/
+        /*text-align: center;*/
         /*width: 100% !important;*/
         /*margin: 0 auto !important;*/
-        float: none !important;
+        /*float: none !important;*/
         /*padding: 0;*/
         /*top: 0;*/
         /*left: 0;*/
@@ -496,13 +496,13 @@ ul.column li:first-child {
         /*height: 200px;*/
         /*clear: left !important;*/
         /*margin: 10px 20px !important;*/
-        overflow: hidden;
+        /*overflow: hidden;*/
     }
     ul.ins-branded img {
         /*display: block;*/
         margin: 20px auto 0 !important;
-        width: 220px;
-        max-width: 195px !important;
+        /*width: 220px;*/
+        /*max-width: 195px !important;*/
     }
     ul.ins-branded li:after {
         display: none;
@@ -510,12 +510,12 @@ ul.column li:first-child {
     .branded-info {
         /*display: block;*/
         /*margin: 0 auto;*/
-        clear: left;
-        text-align: center;
-        margin: 0 0 0 28%;
+        /*clear: left;*/
+        /*text-align: center;*/
+        margin: 0 0 0 25%;
     }
     .branded-descirption {
-        max-width: none;
+        /*max-width: none;*/
     }
 
     /*Featured responsive*/
