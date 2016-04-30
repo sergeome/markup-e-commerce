@@ -29,9 +29,16 @@ $(document).ready(function(){
     } else {
         $('.ins-branded').bxSlider({
             minSlides: 1,
-            moveSlides: 3,
-            maxSlides: 3,
-           slideWidth: 240
+            moveSlides: 1,
+            maxSlides: 1,
+            slideWidth: 240,
+            slideMargin: 0,
+            auto: true,
+            pager: false,
+            pause: 4500,
+            adaptiveHeight: false,
+            responsive: true,
+            controls: false
         });
     }
 
