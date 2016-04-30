@@ -224,7 +224,7 @@ ul.main-slider li img{
     float: left;
     font-size: 27px;
     line-height: 26px;
-    display: none;
+    /*display: none;*/
 }
 .branded-container {
     max-width: 980px;
@@ -407,6 +407,13 @@ ul.column li:first-child {
 
 /*Responsive web-design*/
 
+/*Sytles fixing for the branded slider*/
+@media screen and (max-width:1172px) {
+    .bx-wrapper .bx-prev, .bx-wrapper .bx-next {
+        display: none;
+    }
+}
+
 /*For laptops and desktops with small defenition*/
 @media screen and (max-width:1040px) {
 
@@ -459,6 +466,45 @@ ul.column li:first-child {
         position: relative;
         left: -3px;
         top: 31px;
+        text-align: center;
+    }
+
+    /*Branded responsive*/
+    .branded-container {
+        max-width: none;
+        text-align: center;
+    }
+    .bx-wrapper {
+        width: 320px !important;
+    }
+    .bx-viewport {
+        /*width: 240px !important;*/
+    }
+    ul.ins-branded {
+        /*width: 240px !important;*/
+    }
+    ul.ins-branded li {
+        display: block !important;
+        /*width: 100% !important;*/
+        /*margin: 0 auto !important;*/
+        float: none !important;
+        /*padding: 0;*/
+        /*top: 0;*/
+        /*left: 0;*/
+        /*overflow: hidden;*/
+        /*height: 200px;*/
+        /*clear: left !important;*/
+        margin: 10px 20px !important;
+    }
+    ul.ins-branded img {
+        display: block;
+        margin: 0 auto !important;
+    }
+    ul.ins-branded li:after {
+        display: none;
+    }
+    .branded-info {
+        float: none;
         text-align: center;
     }
 
