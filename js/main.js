@@ -12,19 +12,28 @@ $(document).ready(function(){
         // mode: 'fade',
         controls: false
     });
-    
-    $('.ins-branded').bxSlider({
-        minSlides: 3,
-        moveSlides: 3,
-        maxSlides: 3,
-        slideWidth: 362,
-        slideMargin: 0,
-        auto: false,
-        pager: false,
-        pause: 4500,
-        adaptiveHeight: true,
-        controls: true
-    });
+
+    if ($(window).width() > 1040) {
+        $('.ins-branded').bxSlider({
+            minSlides: 3,
+            moveSlides: 3,
+            maxSlides: 3,
+            slideWidth: 362,
+            slideMargin: 0,
+            auto: false,
+            pager: false,
+            pause: 4500,
+            adaptiveHeight: true,
+            controls: true
+        });
+    } else {
+        $('.ins-branded').bxSlider({
+            minSlides: 1,
+            moveSlides: 3,
+            maxSlides: 3,
+           slideWidth: 240
+        });
+    }
 
 
     if ($(window).width() > 740) {
