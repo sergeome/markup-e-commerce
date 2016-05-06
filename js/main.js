@@ -38,7 +38,7 @@ $(document).ready(function(){
             pause: 4500,
             adaptiveHeight: false,
             responsive: true,
-            controls: false
+            controls: true
         });
     }
 
